@@ -1,0 +1,81 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.container > .signin{
+    height: 800px;
+    width:1400px;
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    
+}
+
+.container > .signin > .left{
+    height:800px;
+    width:600px;
+    background-image: radial-gradient(rgba(226, 118, 118, 0.692), rgba(221, 221, 101, 0.774), rgba(103, 189, 103, 0.774));
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 40px;
+}
+
+.left-upper{
+    height: 500px;
+    width: fit-content;
+    display: flex;
+    font-size: 2em;
+    color: white;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.left-down{
+    height: 300px;
+    width:fit-content;
+    display: flex;
+    color: white;
+    font-size: 1em;
+    flex-direction: column;
+}
+
+.container > .signin > .right{
+    height:800px;
+    width: 900px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs{
+    height:600px;
+    width:800px;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.form{
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */ 
+}
+
+.button{
+    padding-top: 30px;
+
+}
